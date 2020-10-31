@@ -3,22 +3,19 @@
   padding: 0;
 }
 
-body {
-  background-color: #fffff8;
-}
-
 .center {
   position: fixed;
-  top: 40%;
   left: 50%;
+  top: 40%;
+  width: 100%;
   text-align: center;
   transform: translate(-50%, -50%);
   font-family: 'Calligraffitti', cursive;
   color: #1f1f1f;
 }
 
-.center h1 {
-  font-size: 15em;
+h1 {
+  font-size: 12em;
   margin-right: 0.2em;
   margin-bottom: -0.1em;
 }
@@ -40,19 +37,65 @@ a {
   display: block;
   text-decoration: none;
   font-family: 'Calligraffitti', cursive;
-  font-size: 1.2em;
   color: #2f2f2f;
   padding: 0 0.5em;
 }
 
-ul li a {
+nav a {
   font-size: 2em;
 }
 
-ul li a:hover{
+nav a:hover{
   font-weight: bold;
 }
 
 .social a {
   font-family: 'Assistant', sans-serif;
+  font-size: 1.2em;
+}
+
+@media screen and (max-width: 1060px) {
+    h1 {
+        font-size: 10em;
+        margin-right: 0.1em;
+        margin-bottom: 0.0em;
+    }
+
+    nav {
+        line-height: 3em;
+    }
+
+    .social a {
+        margin-top: 3em;
+        font-size: 1.5em;
+    }
+
+    nav a {
+        font-size: 2em;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    h1 {
+        font-size: 7em;
+        margin-right: 0.1em;
+        margin-bottom: 0.0em;
+    }
+
+    nav {
+        line-height: 3em;
+    }
+
+    .social a {
+        margin-top: 2em;
+        font-size: 1.5em;
+    }
+
+    nav a {
+        font-size: 2em;
+    }
+
+    ul li {
+      display: block;
+    }
 }
