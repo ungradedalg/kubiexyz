@@ -15,14 +15,14 @@
 }
 
 h1 {
-  font-size: 12em;
-  margin-right: 0.2em;
-  margin-bottom: -0.1em;
+  font-size: 10em;
+  margin-right: 0.1em;
+  margin-bottom: 0.0em;
 }
 
 nav {
   width: 100%;
-  line-height: 5em;
+  line-height: 3em;
 }
 
 ul {
@@ -51,35 +51,15 @@ nav a:hover{
 
 .social a {
   font-family: 'Assistant', sans-serif;
+  margin-top: 3em;
   font-size: 1.2em;
-}
-
-@media screen and (max-width: 1060px) {
-    h1 {
-        font-size: 10em;
-        margin-right: 0.1em;
-        margin-bottom: 0.0em;
-    }
-
-    nav {
-        line-height: 3em;
-    }
-
-    .social a {
-        margin-top: 3em;
-        font-size: 1.5em;
-    }
-
-    nav a {
-        font-size: 2em;
-    }
 }
 
 @media screen and (max-width: 768px) {
     h1 {
-        font-size: 7em;
+        font-size: 4em;
         margin-right: 0.1em;
-        margin-bottom: 0.0em;
+        margin-bottom: 0.3em;
     }
 
     nav {
